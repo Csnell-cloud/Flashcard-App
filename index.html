@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flashcard App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2196f3" />
+</head>
+<body>
+  <div class="container">
+    <h1>Flashcard App</h1>
+    <form id="flashcard-form">
+      <input type="text" id="question" placeholder="Enter question" required />
+      <input type="text" id="answer" placeholder="Enter answer" required />
+      <button type="submit">Add Flashcard</button>
+    </form>
+
+    <div id="flashcards"></div>
+    <button id="clear-all">Clear All</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
